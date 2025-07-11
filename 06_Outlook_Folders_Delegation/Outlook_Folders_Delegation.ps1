@@ -1,22 +1,12 @@
 #******* Format to access Input Parameters *******
 # To use variable, prefix with '$'. eg. $message
 # Read more https://docs.servicenow.com/?context=CSHelp:IntegrationHub-PowerShell-Step
+# Import ExchangeOnline module
+Import-Module ExchangeOnlineManagement
 
-#******* Reserved variables available when remoting type is Run on MID
-# $computer   Host IP resolved from Connection alias
-# $cred       Credential Object. Credential resolved via connection alias or credential alias. This can be used in conjunction with any cmd-let which support credential parameter eg. New-PSSession -credential $cred
-# $log_info   mid property "mid.property.powershell.log_info" set on instance to enable debugging. So it's a flag available to act on and add any verbose logging if they want to in their script
-##########################################################################################################################################
-#### 
-#### Script:      Delegate_Outlook_Folder_Permissions.ps1                                      
-#### Author:      Balázs von Bölcsházy                                             
-#### Version:     1.0                                                          
-#### Description: Adds delegated permissons to user
-#### Approver:    
-####
-#### Changes:     
-####
-###########################################################################################################################################
+##$AppId = "<your_appId>"
+##$CertificateThumbprint = "<your_Certificate_thumbprint>"
+##$Organization = "<your_organization_domain>"
 Import-Module ExchangeOnlineManagement
 
 Connect-ExchangeOnline -CertificateThumbPrint $CertificateThumbprint -AppID $AppId -Organization $Organization
