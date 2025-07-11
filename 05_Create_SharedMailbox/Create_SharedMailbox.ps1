@@ -1,3 +1,6 @@
+#******* Format to access Input Parameters *******
+# To use variable, prefix with '$'. eg. $message
+# Read more https://docs.servicenow.com/?context=CSHelp:IntegrationHub-PowerShell-Step
 # Import ExchangeOnline module
 Import-Module ExchangeOnlineManagement
 
