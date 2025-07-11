@@ -1,3 +1,4 @@
+# Import ExchangeOnline module
 Import-Module ExchangeOnlineManagement
 
 ##$AppId = "<your_appId>"
