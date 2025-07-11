@@ -24,9 +24,6 @@ function CheckUserExist{
     }
 }
 
-##$AppId = "931761a8-e5a2-46c6-b602-f201b9d97e06"
-##$CertificateThumbprint = "B30DF9531B799A43AD24A579969A58C8B7A2FEC8"
-##$Organization = "ccuatlab.com"
 
 try{  
     
