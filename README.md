@@ -20,3 +20,9 @@ This repository contains a collection of PowerShell scripts used for automating 
 
 ```powershell
 Install-Module -Name ExchangeOnlineManagement
+
+
+# The values for AppID, CertificateThumbprint, and Organization are securely stored as system properties in ServiceNow.
+# These values are passed into this PowerShell script via IntegrationHub Flow Designer Action inputs.
+# You can access them in the script using the '$' symbol followed by the variable name (e.g., $AppId, $CertificateThumbprint, $Organization).
+
