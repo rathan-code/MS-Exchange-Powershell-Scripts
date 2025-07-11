@@ -1,10 +1,7 @@
 # MS-Exchange-Powershell-Scripts
-This Repositry consists of Powershell scripts related to Distribution Lists
 
 # 📬 PowerShell Scripts for Distribution List (DL) and Shared Mailbox Management
-
-This repository contains a collection of PowerShell scripts used for automating the management of 
-# Distribution Lists (DLs), # Shared Mailboxes, and # Outlook Folder Delegation within a Microsoft 365 environment via **Exchange Online** and **Azure AD**.
+This repository contains a collection of PowerShell scripts used for automating the management of **Distribution Lists (DLs)**, **Shared Mailboxes**, and **Outlook Folder Delegation** within a Microsoft 365 environment via **Exchange Online** and **Azure AD**.
 
 ## 📂 Contents
 
