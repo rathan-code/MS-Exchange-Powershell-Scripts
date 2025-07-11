@@ -1,27 +1,9 @@
-#******* Format to access Input Parameters *******
-# To use variable, prefix with '$'. eg. $message
-# Read more https://docs.servicenow.com/?context=CSHelp:IntegrationHub-PowerShell-Step
-
-#******* Reserved variables available when remoting type is Run on MID
-# $computer   Host IP resolved from Connection alias
-# $cred       Credential Object. Credential resolved via connection alias or credential alias. This can be used in conjunction with any cmd-let which support credential parameter eg. New-PSSession -credential $cred
-# $log_info   mid property "mid.property.powershell.log_info" set on instance to enable debugging. So it's a flag available to act on and add any verbose logging if they want to in their script
-##########################################################################################################################################
-#### 
-#### Script:      Create_Shared_Mailbox.ps1                                      
-#### Author:      Balázs von Bölcsházy                                            
-#### Version:     1.0                                                         
-#### Description: Creates new new shared mail box with full access and SendAs members
-#### Approver:    
-####
-#### Changes:     
-####
-###########################################################################################################################################
+# Import ExchangeOnline module
 Import-Module ExchangeOnlineManagement
 
-##$AppId = "931761a8-e5a2-46c6-b602-f201b9d97e06"
-##$CertificateThumbprint = "B30DF9531B799A43AD24A579969A58C8B7A2FEC8"
-##$Organization = "ccuatlab.com"
+##$AppId = "<your_appId>"
+##$CertificateThumbprint = "<your_Certificate_thumbprint>"
+##$Organization = "<your_organization_domain>"
 try{
     Connect-ExchangeOnline -CertificateThumbPrint $CertificateThumbprint -AppID $AppId -Organization $Organization
 
