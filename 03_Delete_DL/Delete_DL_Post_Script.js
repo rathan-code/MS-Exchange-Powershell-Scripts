@@ -1,3 +1,12 @@
+// This JavaScript snippet is added in the "Script" section of the PowerShell Action in ServiceNow for "Delete DL".
+
+// It:
+// - Splits the PowerShell output by line
+// - Parses the last line of the output as JSON (final result from PowerShell)
+// - Maps the following values into action outputs:
+//   - `status` – 0: success, 1: error, 2: DL not found
+//   - `error_message` – Provides error details or confirmation message
+
 (function execute(inputs, outputs) {
 
     //Fetch output from PowerShell script.
