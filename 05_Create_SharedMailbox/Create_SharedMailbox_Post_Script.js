@@ -1,3 +1,19 @@
+// This JavaScript snippet is added in the "Script" section of the PowerShell Action in ServiceNow for "Create Shared Mailbox".
+
+// It:
+// - Splits the PowerShell output line by line
+// - Parses the last line which contains the final JSON result
+// - Maps the following values into action outputs:
+//   - `status` – 0: success, 1: failure, 2: already exists
+//   - `error_message` – Error details (if any)
+//   - `sendas_count` – Number of users successfully granted SendAs permission
+//   - `full_access_count` – Number of users successfully granted Full Access
+//   - `sendas_added_list` – List of users granted SendAs permission
+//   - `sendas_not_added_list` – Users who failed to get SendAs permission
+//   - `full_access_added_list` – Users granted Full Access permission
+//   - `full_access_not_added_list` – Users who failed to get Full Access permission
+//   - `id` – GUID of the created Shared Mailbox
+
 (function execute(inputs, outputs) {
     
     //Fetch output from PowerShell script.
