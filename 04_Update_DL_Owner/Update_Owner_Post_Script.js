@@ -1,3 +1,19 @@
+// This JavaScript snippet is added in the "Script" section of the PowerShell Action in ServiceNow for "Update DL Owners".
+
+// It:
+// - Splits the PowerShell output by line
+// - Parses the last line as JSON (final result from PowerShell)
+// - Maps the following values into action outputs:
+//   - `status` – 0: success, 1: error, 2: DL not found
+//   - `error_message` – Errors if any occurred
+//   - `added_members_count` – Count of owners successfully added
+//   - `removed_members_count` – Count of owners successfully removed
+//   - `added_members` – List of owners added successfully
+//   - `not_added_members` – Owners who failed to be added
+//   - `removed_members` – List of owners successfully removed
+//   - `not_removed_members` – Owners who failed to be removed
+
+
 (function execute(inputs, outputs) {
     
     //Fetch output from PowerShell script.
